@@ -62,7 +62,7 @@ sed '/workgroup = WORKGROUP$/a wins support = yes' /etc/samba/smb.conf
 echo ""
 echo "[Clocktower]" >> /etc/samba/smb.conf
 echo " comment=Clocktower files" >> /etc/samba/smb.conf
-echo " path=/home/clocktower" >> /etc/samba/smb.conf
+echo " path=/home/clocktower/SimpleClocktower" >> /etc/samba/smb.conf
 echo " browseable=Yes" >> /etc/samba/smb.conf
 echo " writeable=Yes" >> /etc/samba/smb.conf
 echo " only guest=no" >> /etc/samba/smb.conf
